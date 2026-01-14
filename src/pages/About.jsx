@@ -1,4 +1,4 @@
-
+import Navbar from "../components/Navbar"
 
 const About = () => {
   return (
@@ -19,6 +19,7 @@ const About = () => {
       </div>
 
       <div className="about-right">
+        <div className="absolute top-10"><Navbar /></div>
         <h2>A little about me</h2>
 
         <p>
