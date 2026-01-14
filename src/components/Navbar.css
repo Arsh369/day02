@@ -1,15 +1,27 @@
 .Navbar{
     display: flex;
+    padding: 20px 0px;
+    justify-content: space-between;
+    font-weight: 400;
+    margin-bottom: 50px;
 }
 ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
+    gap: 15px;
+}
+.theme-toggle{
+    display: flex;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 2px;
 }
 .theme-toggle img{
-    background-color: white;
+    margin: 0px 5px;
 }
 ul li{
     list-style: none;
+    color: grey;
 }
