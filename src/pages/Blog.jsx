@@ -26,6 +26,18 @@ const Blog = () => {
                 <Card img={r2} tag={"Inspiration"} title={"Designing with Feeling: Why Emotion Is a Creative Superpower"} description={"Behind every scroll, click, and tap is a human — with moods, memories, hopes, and fears. Great design doesn’t just function. It feels like something. It moves people."}></Card>
                 <Card img={r3} tag={"Inspiration"} title={"Finding Design Inspiration in Unexpected Places"} description={"If you’ve ever hit a creative block or found yourself making something that just feels... familiar, it might be time to look somewhere new."}></Card>
                 <Card img={r4} tag={"Freebies"} title={"Why We Share Freebies — And What You Can Get Right Now"} description={"Design is about solving problems and sharing ideas — and sometimes, the best way to do that is by simply giving something useful away."}></Card>
+
+                 <div className="load">Load More</div>
+                 <div className="fix">
+                    <div className="btn1">
+                        <img src="" alt="" />
+                        <p>Get Templet</p>
+                    </div>
+                    <div className="btn2">
+                        <img src="" alt="" />
+                        <p>Made in Framer</p>
+                    </div>
+                 </div>
             </div>
         </div>
     )
