@@ -1,0 +1,15 @@
+.Navbar{
+    display: flex;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.theme-toggle img{
+    background-color: white;
+}
+ul li{
+    list-style: none;
+}
