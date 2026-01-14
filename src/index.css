@@ -1,8 +1,11 @@
 @import "tailwindcss";
 body{
-  color: black;
+  color: white;
+  background-color: black;
 }
 .about-section {
+  background-color: black;
+  color: white;
   display: flex;
   padding-left: 40px;
   padding-right: 40px;
@@ -31,6 +34,7 @@ body{
 
 .tag {
   position: absolute;
+  color: black;
   background: rgba(255, 255, 255, 0.85);
   padding: 6px 14px;
   border-radius: 20px;
