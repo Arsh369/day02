@@ -19,20 +19,28 @@ const About = () => {
       </div>
 
       <div className="about-right">
-        <h2>A little about me</h2>
+        <nav className="about-nav">
+          <ul>
+            <li>Home</li>
+            <li className="active">About</li>
+            <li>Projects</li>
+            <li>Blog</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
 
-        <p>
-          Hi, I'm Axel, a Creative Director passionate about turning ideas into
-          impactful visuals. I thrive on storytelling, design, and strategy,
-          bringing brands to life with creativity and purpose.
-        </p>
+       <div className="about-content">
+          <h2>A little about me</h2>
 
-        <p>
-          With a mix of vision, detail, and a love for bold ideas, I craft
-          experiences that connect and inspire.
-        </p>
+          <p>
+            I'm a creative developer passionate about building clean and modern
+            user experiences.
+          </p>
 
-        <p className="cta">Let’s create something amazing together!</p>
+          <p>
+            I focus on React, UI design, and performance-driven web applications.
+          </p>
+        </div>
       </div>
     </section>
   );
