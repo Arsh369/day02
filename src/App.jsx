@@ -1,10 +1,11 @@
 import React from 'react'
 import Home from './components/Home'
+import Contact from './pages/Contact'
 
 const App = () => {
   return (
     <div>
-       <Home/>
+       <Contact/>
     </div>
     
   )
