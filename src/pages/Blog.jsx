@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Blog.css"
 import Navbar from '../components/Navbar'
-import Card from '../components/card'
+import Card from '../components/Card'
 import {r1,r2,r3,r4,framer,shopping,star} from '../assets/images'
 const Blog = () => {
     return (
